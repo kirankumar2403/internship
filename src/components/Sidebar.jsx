@@ -60,7 +60,7 @@ const Sidebar = ({
 
   const clearFilters = () => {
     onFiltersChange({
-      timeRange: 'day',
+      
       minMagnitude: '',
       maxMagnitude: '',
       region: '',
@@ -90,7 +90,7 @@ const Sidebar = ({
     
     // Different loading times based on tab complexity
     const loadingTimes = {
-      'filters': 300,
+      'filters': 500,
       'statistics': 800,
       'earthquakes': 600,
       'prediction': 1000,

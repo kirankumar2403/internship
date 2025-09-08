@@ -8,7 +8,6 @@ export const TIME_RANGES = {
   HOUR: { key: 'hour', label: 'Past Hour', endpoint: 'summary/all_hour.geojson' },
   DAY: { key: 'day', label: 'Past Day', endpoint: 'summary/all_day.geojson' },
   WEEK: { key: 'week', label: 'Past Week', endpoint: 'summary/all_week.geojson' },
-  MONTH: { key: 'month', label: 'Past Month', endpoint: 'summary/all_month.geojson' },
   SIGNIFICANT: { key: 'significant', label: 'Significant (Past Month)', endpoint: 'summary/significant_month.geojson' },
   M4_5_DAY: { key: 'm4.5_day', label: 'M4.5+ Past Day', endpoint: 'summary/4.5_day.geojson' },
   M4_5_WEEK: { key: 'm4.5_week', label: 'M4.5+ Past Week', endpoint: 'summary/4.5_week.geojson' },

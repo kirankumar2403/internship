@@ -18,7 +18,6 @@ function App() {
   
   // Filter state
   const [filters, setFilters] = useState({
-    timeRange: 'day',
     minMagnitude: '',
     maxMagnitude: '',
     region: '',
